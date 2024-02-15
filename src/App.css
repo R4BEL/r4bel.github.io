@@ -1,0 +1,216 @@
+#root {
+  width: 100%;
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;;
+}
+
+body{
+  width: 100%;
+  position: fixed;
+  background-color: red;
+  scrollbar-width: none;
+}
+
+.nanum-gothic coding-regular {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.app-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.container-presentationCard{
+  background-color: rgba(130, 126, 126);
+  position: relative;
+  box-sizing: border-box;
+  padding: 15px;
+  height: 100vh;
+}
+
+.presentationCard{
+  background-color: rgba(130, 126, 126);
+  box-shadow:  2px 2px 40px rgb(0, 0, 0);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+
+.presentationCard-header{
+  border-bottom: 2px solid black;
+  margin: 5px;
+  color: black;
+}
+
+.presentationCard-header img{
+  padding: 10px;
+}
+
+.presentationCard-header-title{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  align-items: center;
+}
+
+.presentationCard-header-title h3{
+  padding-top: 10px;
+  margin: 0;
+}
+
+.presentationCard-header-title h5{
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.presentationCard-header-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+}
+
+.presentationCard-nav{
+  margin-top: 2rem;
+  display:initial ;
+}
+
+.presentationCard-nav ul{
+  list-style: none;
+  color: black;
+  font-weight: bolder;
+  text-align: left;
+  padding: 0;
+}
+
+.presentationCard-nav ul li{
+  background-color: rgba(82, 79, 79, 0.2);
+  box-shadow: 2px 2px 5px rgb(97, 96, 96);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: grab;
+}
+
+.presentationCard-nav ul li:hover{
+  background-color: rgb(224, 75, 75);
+  margin-left: 20px;
+  font-size: 105%;
+  transition: 200ms ease;
+  color: inherit;
+  display: flex;
+  border: 1px rgb(51, 50, 50) solid;
+}
+
+.presentationCard-nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+.color-inerith{
+  color: inherit;
+}
+
+.color-inerith:hover{
+  color: inherit;
+}
+
+.icon-nav-left{
+  margin-right: 10px;
+}
+
+.presentationCard-footer{
+  position: absolute;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 80%;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.page-container{
+  background-color: rgba(130, 126, 126);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.article-text-area{
+  box-sizing: border-box;
+  padding: 100px;
+  overflow: auto;
+  scrollbar-color: red;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.article-text-area header{
+  width: 100%;
+  border-bottom: 1px solid black;
+  font-size: 50px;
+}
+
+.article-text-area main {
+  margin-top: 40px;
+  text-align: left;
+  white-space: pre-line;
+}
+
+.black-solid-boder{
+  border: 1px rgb(51, 50, 50) solid;
+}
+
+@media screen and  (max-width: 1000px), (max-height: 700px) {
+  .hide-for-responsive{
+    display: none;
+  }
+
+  .icon-nav-left{
+    margin-right: 0px;
+  }
+
+  .delete-margin-w-1000{
+    margin:0;
+  }
+  .presentationCard-nav ul li:hover{
+    background-color: rgb(224, 75, 75);
+    box-sizing: border-box;
+    margin: 0px;
+    transition: 200ms ease;
+    color: inherit;
+    border: 1px rgb(51, 50, 50) solid;
+  }
+}
+
+
+.table-projects{
+  width: 100%;
+}
+
+.table-projects thead {
+  font-size: 200%;
+  text-align: center;
+}
+
+.table-projects tbody {
+
+  text-align: center;
+}
+
+.icon-project{
+  font-size: 800%;
+}
+
